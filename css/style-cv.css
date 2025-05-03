@@ -1,0 +1,92 @@
+
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    color: #222;
+   
+}
+
+.tarjeta {
+    width: 45vw;
+    background-color: #f4f4f4;
+    border-radius: 1em;
+    border: solid 5px black;
+    justify-self: center;
+    padding: 0.1%  2%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    gap: 1em;
+    
+}
+
+#fotoPerfil {
+    display: flex;
+    justify-content: center; /* Centrar horizontal */
+    align-items: center;     /* Centrar vertical */
+    width: auto;
+    height: auto;
+    
+}
+
+#fotoPerfil img {
+    width: 19vw;
+    height: 19vw;
+    border-radius: 1em;
+    border: 0.1em solid black;
+}
+
+
+#personal {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{ 
+    color: black;
+    margin: 2vh 0;
+    text-align: center;
+
+}
+
+h3 {
+    margin-top: 5vh;
+}
+
+h1, h3 {
+    size: 3vw;
+}
+
+
+#nombre{
+   font-size: 2rem;
+    
+}
+
+#informacion {
+    display: flex;
+    gap: 10vh;
+    
+    
+}
+
+.columna1 {
+    width: 100%;
+}
+
+.experiencia {
+    width: 100%;
+}
